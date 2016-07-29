@@ -28,7 +28,7 @@
 \author{ 
 Kosuke Imai \email{kimai@princeton.edu}
 
-James Lo \email{jameslo@princeton.edu}
+James Lo \email{lojames@usc.edu}
 
 Jonathan Olmsted \email{jpolmsted@gmail.com}
 }
