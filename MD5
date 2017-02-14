@@ -1,5 +1,5 @@
-7491a80eee84da8bbf2091a8af15b25e *ChangeLog
-44875d6eaa34272f9700dc8d102c8c48 *DESCRIPTION
+152a32528db61fa3bf67c4caa07069f5 *ChangeLog
+7bb0360f72db6d02ba6a6238edc43d1e *DESCRIPTION
 9f910b8b00ddd8541e081bd067dff631 *NAMESPACE
 d79509a0552a8d196331c68859734195 *R/binIRT.R
 d7c4eb49cc83b48d04cc8971aeded967 *R/bootstrap.R
@@ -24,9 +24,9 @@ f63dac5805e5c31f0a4c5ed201656077 *man/binIRT.Rd
 135393d0e1814568249cf2d3cfe4a579 *man/boot_emIRT.Rd
 3a84133833d77d0aee9a1ed195004b4d *man/convertRC.Rd
 3e37c005564347c77f80a639a612b05b *man/dwnom.Rd
-5ea04901b9b28a33fef5038dfa96526a *man/dynIRT.Rd
+56f0d968ea7144ae52978a3f5306838c *man/dynIRT.Rd
 f12eaff7df1cffa95d896ce8a1c66d14 *man/getStarts.Rd
-44e534d6bbe735de402a1c406b93ecc6 *man/hierIRT.Rd
+66db946bb376caeb5aa002ccf698ade6 *man/hierIRT.Rd
 8487b3a3519af266fe7b2d02af20649a *man/makePriors.Rd
 bcbfc2cc35f1bf5ae040f7cc256cdf0b *man/manifesto.Rd
 6977955924f6d6fdda0469b7b5300c2f *man/mq_data.Rd
