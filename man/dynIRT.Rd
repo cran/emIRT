@@ -120,11 +120,10 @@ Jonathan Olmsted \email{jpolmsted@gmail.com}
 
 Original model and the example is based off of Andrew Martin and Kevin Quinn, ``Dynamic Ideal
 Point Estimation via Markov Chain Monte Carlo for the U.S. Supreme Court, 1953-1999.'' Political
-Analysis 10(2) 134-153.  Also see \url{http://mqscores.berkeley.edu}.
+Analysis 10(2) 134-153. 
 
 Variational model is described in Kosuke Imai, James Lo, and Jonathan Olmsted ``Fast Estimation
-of Ideal Points with Massive Data.'' Working Paper.
-Available at \url{http://imai.princeton.edu/research/fastideal.html}.
+of Ideal Points with Massive Data.'' 
 
 }
 

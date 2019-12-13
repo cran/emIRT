@@ -161,22 +161,22 @@ priors$x <- list(mu = matrix(0,1,1), sigma = matrix(1,1,1) )
 priors$beta <- list(mu = matrix(0,2,1), sigma = matrix(diag(25,2),2,2))
 
 ## Call ordIRT() with inputs
-time <- system.time({
-    lout <- ordIRT(.rc = newrc,
-                    .starts = cur,
-                    .priors = priors,
-                    .control = {list(
-                        threads = 1,
-                        verbose = TRUE,
-                        thresh = 1e-6,
-			maxit=300,
-			checkfreq=50
-                        )})
-})
+#time <- system.time({
+#    lout <- ordIRT(.rc = newrc,
+#                    .starts = cur,
+#                    .priors = priors,
+#                    .control = {list(
+#                        threads = 1,
+#                        verbose = TRUE,
+#                        thresh = 1e-6,
+#			maxit=300,
+#			checkfreq=50
+#                        )})
+#})
 
 ## Examine runtime and correlation of recovered ideal points vs. truth
 time
-cor(x.true,lout$means$x)
+#cor(x.true,lout$means$x)
 
 }
 \keyword{ multivariate }

@@ -1,6 +1,6 @@
-152a32528db61fa3bf67c4caa07069f5 *ChangeLog
-7bb0360f72db6d02ba6a6238edc43d1e *DESCRIPTION
-9f910b8b00ddd8541e081bd067dff631 *NAMESPACE
+7d48cb13dc60f13ce901500ba0e12896 *ChangeLog
+0c3bcdd5ce633a54c041064ff01eae02 *DESCRIPTION
+7cfa938beb1c3144e4e532bd97fa1f26 *NAMESPACE
 d79509a0552a8d196331c68859734195 *R/binIRT.R
 d7c4eb49cc83b48d04cc8971aeded967 *R/bootstrap.R
 a4684d7acc84b6c53dfbbb09140676f4 *R/convertRC.R
@@ -23,15 +23,15 @@ b9740afe95f992db4f3dfed880f7e458 *data/dwnom.rda
 f63dac5805e5c31f0a4c5ed201656077 *man/binIRT.Rd
 135393d0e1814568249cf2d3cfe4a579 *man/boot_emIRT.Rd
 3a84133833d77d0aee9a1ed195004b4d *man/convertRC.Rd
-3e37c005564347c77f80a639a612b05b *man/dwnom.Rd
-56f0d968ea7144ae52978a3f5306838c *man/dynIRT.Rd
+ae686cb6196ef9ce15b6a46dedf7afe3 *man/dwnom.Rd
+986ead81be3cc25b55f6de36c53fc326 *man/dynIRT.Rd
 f12eaff7df1cffa95d896ce8a1c66d14 *man/getStarts.Rd
 66db946bb376caeb5aa002ccf698ade6 *man/hierIRT.Rd
 8487b3a3519af266fe7b2d02af20649a *man/makePriors.Rd
 bcbfc2cc35f1bf5ae040f7cc256cdf0b *man/manifesto.Rd
-6977955924f6d6fdda0469b7b5300c2f *man/mq_data.Rd
+2dc904d05537aa73e6e151ed0b7abfc9 *man/mq_data.Rd
 7fe13c4a2ab21a29ab41916c3c007561 *man/networkIRT.Rd
-3bdc60e41acb90a42a8d4da9bac50619 *man/ordIRT.Rd
+f3e8df41f87d3c7b085964384c09dcf6 *man/ordIRT.Rd
 d2660ac4113f1d1a6df40662a266239d *man/poisIRT.Rd
 4e13d333f5298bd0d0f00f209064a6e8 *man/ustweet.Rd
 a38316088323e4ce29fab626790da97e *src/FastEst_estimate.cpp
@@ -39,7 +39,7 @@ a38316088323e4ce29fab626790da97e *src/FastEst_estimate.cpp
 61f938ed549c6219dfc03ac076010a8a *src/Makevars.win
 fa15d3a878610a4da4260f78c29bc8e9 *src/calcFitStats.cpp
 f11712b1d7f7bff6109b02e5e77f0d16 *src/calcFitStats.h
-eb904adec62c173b7e7b1d8aff575866 *src/calcLB.cpp
+e29fd09c80ed78f2ca0bf9865f230d44 *src/calcLB.cpp
 1097f9487ec1b4ec9ff7f73124cc2fe6 *src/calcLB.h
 153dd17c64cb19613ec0eb29b1127601 *src/checkConv.cpp
 39281c5e6677e3495ebcca106cab57fd *src/checkConv.h
@@ -56,6 +56,7 @@ e120ab26aed467b004decf3685a201e0 *src/checkInputs.h
 f38bff9e4e9d0ef25e23224c36d2c51a *src/countVotes.cpp
 14196f76083128d4776169d05f9a23e7 *src/countVotes.h
 b6cad5ebe37376271b1fc7d558d7a338 *src/dynIRT_estimate.cpp
+0f9d227984d808d6d4379c43e7f780cd *src/emIRT_init.c
 601b262d4469907c7ddaa5126721c77c *src/endorseIRT_estimate.cpp
 28ef73159043454ac4b1a59895723f3c *src/entN.cpp
 5a884b49f2674b08034477ec966256e5 *src/entN.h
