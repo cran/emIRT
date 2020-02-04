@@ -1,7 +1,7 @@
-7d48cb13dc60f13ce901500ba0e12896 *ChangeLog
-0c3bcdd5ce633a54c041064ff01eae02 *DESCRIPTION
+6a2042389828bc735688f2921a40ec21 *ChangeLog
+145d6e48dcfff90c14511b198d88647d *DESCRIPTION
 7cfa938beb1c3144e4e532bd97fa1f26 *NAMESPACE
-d79509a0552a8d196331c68859734195 *R/binIRT.R
+1bd3c9eebb93c188d57a13bf7a2eb059 *R/binIRT.R
 d7c4eb49cc83b48d04cc8971aeded967 *R/bootstrap.R
 a4684d7acc84b6c53dfbbb09140676f4 *R/convertRC.R
 790ba194e439d9c875c92f9fd258d78c *R/dynIRT.R
@@ -128,7 +128,7 @@ fef39bf93505140bd67f3c94c641e921 *src/getEtheta_endorseIRT.cpp
 c4efb26772f2221b10b53bc1fa8222dc *src/getEtt_ordIRT.h
 288492a63bd5bf59b242e4b1e1ab710a *src/getEw_endorseIRT.cpp
 3397d709c1584368af0b14d383e64f8c *src/getEw_endorseIRT.h
-424654703cf805b8d19bf0d49870b55b *src/getEx.cpp
+2298fafe701fb2856902d0bdea7130df *src/getEx.cpp
 3cf5de7490ebaca00eef26479841cbb7 *src/getEx.h
 7eaa6c1f690fc4a356ca6a23829491c7 *src/getEx2_hierIRT.cpp
 508882b4d3eee294bb0aa4bf0bc5d445 *src/getEx2_hierIRT.h
