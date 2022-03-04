@@ -39,9 +39,9 @@ void checkInputs (const arma::mat &alpha_start,
         throw std::runtime_error("Check frequency not positve.") ;
     }
 
-//    if (threads < 0) {
-//        throw std::runtime_error("Number of threads not non-negative.") ;
-//    }
+    if (threads < 0) {
+        throw std::runtime_error("Number of threads not non-negative.") ;
+    }
     if (D <= 0) {
         throw std::runtime_error("Number of dimensions not positive.") ;
     }

@@ -8,7 +8,7 @@
 \description{
 
   This data set contains materials related to the Poole-Rosenthal DW-NOMINATE measure of senator
-  ideology.  The software (and other materials) is available at Voteview,
+  ideology.  The software (and other materials) is available at \url{https://voteview.com/},
   which includes a simpler example of an application to the 80-110 U.S. Senate.  The data set here is
   derived from the data and estimates from that example, but are formatted to be run in \code{hierIRT()}.
   In particular, start values for estimation are identical to those provided by the example.
@@ -36,11 +36,10 @@ data(dwnom)
 \references{
 
 DW-NOMINATE is described in Keith T. Poole and Howard Rosenthal. 1997. Congress: A Political Economic History
-of Roll Call Voting. Oxford University Press.
+of Roll Call Voting. Oxford University Press.  See also \url{https://voteview.com/}.
 
-Variational model is described in Kosuke Imai, James Lo, and Jonathan Olmsted ``Fast Estimation
-of Ideal Points with Massive Data.'' Working Paper. Available at
-\url{http://imai.princeton.edu/research/fastideal.html}.
+Variational model is described in Kosuke Imai, James Lo, and Jonathan Olmsted (2016). ``Fast Estimation
+of Ideal Points with Massive Data.'' American Political Science Review, Vol. 110, No. 4 (December), pp. 631-656.
 
 }
 
@@ -51,7 +50,7 @@ of Ideal Points with Massive Data.'' Working Paper. Available at
 \examples{
 
 ### Real data example of US Senate 80-110 (not run)
-### Based on voteview.com example of DW-NOMINATE
+### Based on voteview.com example of DW-NOMINATE 
 ### We estimate a hierarchical model without noise and a linear time covariate
 ### This model corresponds very closely to the DW-NOMINATE model
 

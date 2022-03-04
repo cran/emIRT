@@ -38,10 +38,10 @@ data(mq_data)
 
 Original model and the example is based off of Andrew Martin and Kevin Quinn, ``Dynamic Ideal
 Point Estimation via Markov Chain Monte Carlo for the U.S. Supreme Court, 1953-1999.'' Political
-Analysis 10(2) 134-153.
+Analysis 10(2) 134-153.  Also see \url{https://mqscores.lsa.umich.edu/}.
 
-Variational model is described in Kosuke Imai, James Lo, and Jonathan Olmsted ``Fast Estimation
-of Ideal Points with Massive Data.'' 
+Variational model is described in Kosuke Imai, James Lo, and Jonathan Olmsted (2016). ``Fast Estimation
+of Ideal Points with Massive Data.'' American Political Science Review, Vol. 110, No. 4 (December), pp. 631-656.
 
 }
 

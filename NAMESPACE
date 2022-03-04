@@ -1,5 +1,4 @@
-useDynLib(emIRT, .registration=TRUE)
-
+useDynLib(emIRT, .registration = TRUE)
 import(pscl)
 import(Rcpp)
 #import(RcppArmadillo)
@@ -12,5 +11,3 @@ export(boot_emIRT)
 
 importFrom("stats", "pnorm", "qnorm", "rnorm", "runif", "sd")
 importFrom("utils", "flush.console")
- 
- 

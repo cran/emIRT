@@ -126,17 +126,11 @@ List estimate_poisIRT (arma::mat alpha_start,
     List N;
 	List i_of_k;
 
+    means["alpha"] = curEalpha;
     means["beta"] = curEbeta;
+    means["psi"] = curEpsi;
     means["x"] = curEx;
 	means["xi"] = xi;
-
-// IMPORTANT NOTE: Max Goplerud discovered that Psi and Alpha were accidentally flipped
-// We flip here to keep consistency with the paper
-//    means["alpha"] = curEalpha;
-//    means["psi"] = curEpsi;
-    means["psi"] = curEalpha;
-    means["alpha"] = curEpsi;
-
 
     vars["x"] = curVx ;
     vars["beta"] = curVbeta;

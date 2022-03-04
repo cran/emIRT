@@ -57,10 +57,10 @@ poisIRT <- function(.rc,
         )
 
     ## Labelling of Output
-	rownames(ret$means$psi) <- colnames(.rc)
+	rownames(ret$means$psi) <- rownames(.rc)
 	rownames(ret$means$beta) <- rownames(.rc)
 	rownames(ret$vars$beta) <- rownames(.rc)
-	rownames(ret$means$alpha) <- rownames(.rc)
+	rownames(ret$means$alpha) <- colnames(.rc)
 
 	#Would only work if NI=NK, so this is omitted
 	#rownames(ret$means$x) <- colnames(.rc)

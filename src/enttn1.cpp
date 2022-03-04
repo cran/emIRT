@@ -7,8 +7,7 @@
 // the GNU Public License (>= 2.0). A copy of this license can be obtained at
 // <http://www.gnu.org/licenses/gpl-2.0.html>.
 
-
-//const double PI = 3.141592653589793238463 ;
+const double PI = 3.141592653589793238463 ;
 
 #include <Rcpp.h>
 
@@ -17,8 +16,6 @@ double enttn1(const double mean,
               const double low,
               const double high
               ) {
-
-
     // Normalize bounds
     double alpha = (low - mean) / sd ;
     double beta = (high - mean) / sd ;
@@ -42,7 +39,7 @@ double enttn1(const double mean,
 
     double num = num1 - num2 ;
     double denom = 2 * q3 ;
-    double temp = (.5 * log(2 * PI * exp(1.0)) +
+    double temp = (.5 * log(2 * M_PI * exp(1.0)) +
                    log(sd * q3)
                    ) ;
 
