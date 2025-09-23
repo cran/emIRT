@@ -1,9 +1,20 @@
 Package: emIRT
 Type: Package
 Title: EM Algorithms for Estimating Item Response Theory Models
-Version: 0.0.14
-Date: 2024-06-23
-Author: Kosuke Imai <imai@harvard.edu>, James Lo <jameslo989@gmail.com>, Jonathan Olmsted <jpolmsted@gmail.com>
+Version: 0.0.15
+Date: 2025-09-23
+Authors@R: c(person(given = "Kosuke",
+                        family = "Imai",
+                        role = c("aut", "cre"),
+                        email = "imai@harvard.edu"),
+                 person(given = "James",
+                        family = "Lo",
+                        role = "aut",
+                        email = "jameslo989@gmail.com"),
+                 person(given = "Jonathan",
+                        family = "Olmsted",
+                        role = "aut",
+                        email = "jpolmsted@gmail.com"))
 Maintainer: Kosuke Imai <imai@harvard.edu>
 Description: Various Expectation-Maximization (EM) algorithms are implemented for item 
 	response theory (IRT) models. The package includes IRT models for binary and ordinal
@@ -16,6 +27,9 @@ Depends: R (>= 2.10), pscl (>= 1.0.0), Rcpp (>= 0.10.6)
 Suggests: MCMCpack
 LinkingTo: Rcpp, RcppArmadillo
 NeedsCompilation: yes
-Packaged: 2024-07-05 08:47:18 UTC; kosukeimai
+Packaged: 2025-09-23 22:13:40 UTC; kosukeimai
+Author: Kosuke Imai [aut, cre],
+  James Lo [aut],
+  Jonathan Olmsted [aut]
 Repository: CRAN
-Date/Publication: 2024-07-06 15:22:03 UTC
+Date/Publication: 2025-09-23 23:00:02 UTC

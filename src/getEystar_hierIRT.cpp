@@ -44,7 +44,7 @@ void getEystar_hierIRT(arma::mat &Eystar,
 		// Note: Taking etn() of extreme truncated normals is a problem			    
 		// etn(-9.49378,1,0,1000) gives Inf for Eystar, which crashes everything
 		// In these cases, we should ignore the vote
-		if( !(arma::is_finite(Eystar(l,0))) ) Eystar(l,0) = ml;
+		if( !(std::isfinite(Eystar(l,0))) ) Eystar(l,0) = ml;
 
 			    
   	}  // end for(l=0; l < NL; l++)

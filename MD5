@@ -1,5 +1,5 @@
-62b673665c91194d1ec05b90ce22cbdc *ChangeLog
-4441aceaea921e7905d8f5be1476563f *DESCRIPTION
+4e8ed8655a1e4590f8b4f475f43b9510 *ChangeLog
+649ab9240004f9af9d85796167989724 *DESCRIPTION
 678c772f4829348286ec3fb4ef751008 *NAMESPACE
 1bd3c9eebb93c188d57a13bf7a2eb059 *R/binIRT.R
 d7c4eb49cc83b48d04cc8971aeded967 *R/bootstrap.R
@@ -149,13 +149,13 @@ bfde5312299d479ac5412048ca58caa2 *src/getExi_poisIRT.h
 c8f3da3e700cfe0cca24f1f7c21d2c8a *src/getExx_ordIRT.h
 c6e311c3f96dc9d2a0acfa9d94044c17 *src/getEystar.cpp
 fdf8e2f1a191a17ba2f3554f41301c45 *src/getEystar.h
-3d5efe8036c3e3f10e11bd27b3fd646a *src/getEystar_dynIRT.cpp
+3925a501bfbd5948475ffbf4c1e2146c *src/getEystar_dynIRT.cpp
 5d1a8f7f0d0e74a9c4d400a6af446053 *src/getEystar_dynIRT.h
 e41ab78a6268390ede3064e747505d69 *src/getEystar_endorseIRT.cpp
 4b4ff89f32f9cbe33c26a972afd27e44 *src/getEystar_endorseIRT.h
-16136ca5f9c2ef111ac2bf388825cdf9 *src/getEystar_hierIRT.cpp
+4408e75e2594ae8b4cf1a5857a167b41 *src/getEystar_hierIRT.cpp
 40962322fe8579d3f8755db28433502a *src/getEystar_hierIRT.h
-8bbaed4ce2d922465a0d298747c3716e *src/getEzstar_ordIRT.cpp
+a584e3a4816872cdf157e20d6d3497ec *src/getEzstar_ordIRT.cpp
 9904ae9b6c8a7500dd0b1c1977bfe274 *src/getEzstar_ordIRT.h
 d7b60a9be0353b87497752e1742697ae *src/getEzzstar_ordIRT.cpp
 50be3f05d7eaf7e573108730f67bff93 *src/getEzzstar_ordIRT.h

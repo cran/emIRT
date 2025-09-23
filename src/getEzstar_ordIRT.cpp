@@ -38,7 +38,7 @@ arma::mat getEzstar_ordIRT(const arma::mat &Edd,
     if(y(i,j)==2)     Ezstar(i,j) = etn1(q1, 1/sqrt(Edd(j,0)), 0, 1);
     if(y(i,j)==3)     Ezstar(i,j) = etn1(q1, 1/sqrt(Edd(j,0)), 1, R_PosInf);
     if(y(i,j)==0)     Ezstar(i,j) = etn1(q1, 1/sqrt(Edd(j,0)), R_NegInf, R_PosInf);
-	if( !(arma::is_finite(Ezstar(i,j))) ) Ezstar(i,j) = q1;
+	if( !(std::isfinite(Ezstar(i,j))) ) Ezstar(i,j) = q1;
 
 	}
   }

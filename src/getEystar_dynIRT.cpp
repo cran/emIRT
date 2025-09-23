@@ -43,7 +43,7 @@ void getEystar_dynIRT(arma::mat &Eystar,
 				// Note: Taking etn() of extreme truncated normals is a problem			    
 			    // etn(-9.49378,1,0,1000) gives Inf for Eystar, which crashes everything
 			    // In these cases, we should ignore the vote
-			    if( !(arma::is_finite(Eystar(i,j))) ) Eystar(i,j) = q1;
+			    if( !(std::isfinite(Eystar(i,j))) ) Eystar(i,j) = q1;
 		    
 			} // end if( (bill_session(j,0) <= endlegis(i,0)) 
 
